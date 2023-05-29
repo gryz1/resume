@@ -45,6 +45,7 @@ a {
 
 .second-row {
     display: flex;
+    padding-top: 131px;
 }
 
 .second-row h5 {
