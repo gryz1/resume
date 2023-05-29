@@ -8,6 +8,11 @@ li {
     list-style-type: none;
 }
 
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
 .wrapper {
     max-width: 1720px;
     margin: 0 auto;
@@ -18,10 +23,6 @@ li {
     /* justify-content: center; */
     /* gap: 140px; */
     padding-top: 345px;
-}
-
-.second-row h5 {
-
 }
 
 .first-row-text {
@@ -113,4 +114,32 @@ font-family: 'Inter';
 
 .about-me-paragraf:not(:last-child) {
     margin-bottom: 62px;
+}
+
+footer {
+    max-width: 1720px;
+    margin: 327px auto 142px auto;
+}
+
+
+.contact-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.contact {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 89.3%;
+    color: #C1A8A8;  
+}
+
+.contact a {
+    color: #C1A8A8;
+}
+
+.contact a:first-child {
+    padding-left: 68px;
 }
