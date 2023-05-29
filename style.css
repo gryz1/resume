@@ -76,6 +76,7 @@ font-family: 'Inter';
 }
 
 .btn-group button {
+    margin-right: 24px;
     padding: 20px;
     border: 0;
     font-family: 'Inter';
